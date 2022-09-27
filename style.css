@@ -1,3 +1,15 @@
 body{
-    background: red;
+    background-color: black;
+}
+
+.texto {
+    color: red;
+}
+
+.cabecalho {
+    color: green;
+}
+
+#sub {
+    color: blueviolet;
 }
