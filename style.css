@@ -1,15 +1,133 @@
-body{
-    background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lato&family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-.texto {
-    color: red;
+body {
+    font-size: 100%;
+    background: #000000;
+    background: url(images/hero-bg-bottom\ 1.svg) right bottom no-repeat, url(images/Screenshot_44\ 1.svg) left top repeat;
 }
 
 .cabecalho {
-    color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#sub {
-    color: blueviolet;
+.cabecalho-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cabecalho-logo-titulo {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    width: 205px;
+    height: 21px;
+    color: #D9677B;
+    padding-left: 33px;
+}
+
+.cabecalho-logo-img {
+    width: 38px;
+    height: 39px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 170px;
+
+}
+
+.cabecalho-menu-item {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    width: 70px;
+    height: 21px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.violet-glow {
+    width: 122px;
+    height: 122px;
+    filter: blur(2px);
+    align-self: center;
+}
+
+.elipse528 {
+    width: 122px;
+    height: 122px;
+    background: #D9677B;
+    box-shadow: inset 25px 16px 27px rgba(255, 255, 255, 0.25);
+    border-radius: 50%
+}
+
+.titulo {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 0.055em;
+    display: flex;
+    flex-direction: column;
+    margin-left: 165px;
+    margin-top: 23px;
+    gap: 32px;
+}
+
+.luxe {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    color: #D9677B;
+}
+
+.subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-left: 165px;
+}
+
+.botao {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 134px;
+    height: 35px;
+    background: #D9677B;
+    border-radius: 5px;
+    margin-left: 165px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.rect-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: 165px;
+}
+
+.rect {
+    width: 164px;
+    height: 127px;
+    background: #FFFFFF;
+    border-radius: 19px;
 }
